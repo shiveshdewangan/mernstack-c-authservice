@@ -1,5 +1,5 @@
-function login(username: string) {
-    return true;
+function login(username: string): string {
+    return username;
 }
 
-console.log(login("dewans2"));
+login("dewash1");
