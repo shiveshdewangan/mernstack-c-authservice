@@ -14,6 +14,8 @@ describe("POST /auth/register", () => {
                 expect.stringContaining("json"),
             );
         });
+
+        it("persist user in the database", async () => {});
     });
     describe("Fields are missing", () => {});
 });
